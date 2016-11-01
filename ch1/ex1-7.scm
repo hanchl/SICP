@@ -1,4 +1,4 @@
-;1.7
+;ex1.7
 ;对于极小数（例如比0.001），good-enough? 会因精度不够而失效，导致结果出错；对于极大数，good-enough? 会由于计算机精度不足以精确的表示大数之差，使得sqrt陷入死循环。
 
 (define (good-enough? old new)
